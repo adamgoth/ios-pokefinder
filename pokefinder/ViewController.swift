@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var geofire: GeoFire!
 
     override func viewDidLoad() {
         super.viewDidLoad()
