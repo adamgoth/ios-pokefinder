@@ -206,6 +206,7 @@
 				TargetAttributes = {
 					F90F5C1A1DAAF5E500005EAB = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M685F39Y73;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -426,7 +427,9 @@
 			baseConfigurationReference = ABF4922E4ABDB695C249D558 /* Pods-pokefinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M685F39Y73;
 				INFOPLIST_FILE = pokefinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adamgoth.pokefinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -440,7 +443,9 @@
 			baseConfigurationReference = AD97D72D75D121EB9ABF70F3 /* Pods-pokefinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M685F39Y73;
 				INFOPLIST_FILE = pokefinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adamgoth.pokefinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";

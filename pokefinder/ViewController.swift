@@ -87,7 +87,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
             annotationView.image = UIImage(named: "\(anno.pokemonNumber)")
             let btn = UIButton()
             btn.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
-            btn.setImage(UIImage(named: "map"), for: .normal)
+            btn.setImage(UIImage(named: "location-map-flat"), for: .normal)
             annotationView.rightCalloutAccessoryView = btn
         }
         
